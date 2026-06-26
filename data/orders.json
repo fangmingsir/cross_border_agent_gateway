@@ -1,0 +1,30 @@
+[
+  {
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "sessions_7d": 4200,
+    "orders_7d": 210,
+    "conversion_rate": 0.05,
+    "ad_clicks_7d": 880,
+    "acos": 0.31
+  },
+  {
+    "sku": "SKU-YOGA-002",
+    "marketplace": "US",
+    "sessions_7d": 2600,
+    "orders_7d": 260,
+    "conversion_rate": 0.1,
+    "ad_clicks_7d": 410,
+    "acos": 0.18
+  },
+  {
+    "sku": "SKU-LAMP-003",
+    "marketplace": "UK",
+    "sessions_7d": 1900,
+    "orders_7d": 80,
+    "conversion_rate": 0.042,
+    "ad_clicks_7d": 360,
+    "acos": 0.37
+  }
+]
+

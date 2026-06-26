@@ -1,0 +1,48 @@
+[
+  {
+    "id": "low_conversion_us",
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "question": "这个 SKU 在美国站转化差，帮我分析并给出调价和 listing 优化建议",
+    "expected_tools": ["query_product_catalog", "query_order_stats", "query_refund_risk", "estimate_margin", "generate_listing_suggestions"],
+    "expected_evidence": ["conversion_rate", "refund_rate", "margin_rate"],
+    "expected_review": false
+  },
+  {
+    "id": "healthy_sku",
+    "sku": "SKU-YOGA-002",
+    "marketplace": "US",
+    "question": "这个商品最近表现怎么样，是否需要调价？",
+    "expected_tools": ["query_product_catalog", "query_order_stats", "query_refund_risk", "estimate_margin", "generate_listing_suggestions"],
+    "expected_evidence": ["conversion_rate", "refund_rate", "margin_rate"],
+    "expected_review": false
+  },
+  {
+    "id": "high_refund_uk",
+    "sku": "SKU-LAMP-003",
+    "marketplace": "UK",
+    "question": "英国站退货率升高，判断是否应该下架或转人工处理",
+    "expected_tools": ["query_product_catalog", "query_order_stats", "query_refund_risk", "estimate_margin", "generate_listing_suggestions"],
+    "expected_evidence": ["refund_rate", "top_refund_reason"],
+    "expected_review": true
+  },
+  {
+    "id": "unknown_sku",
+    "sku": "SKU-NOT-FOUND",
+    "marketplace": "US",
+    "question": "帮我诊断这个 SKU",
+    "expected_tools": ["query_product_catalog"],
+    "expected_evidence": [],
+    "expected_review": true
+  },
+  {
+    "id": "same_sku_cache",
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "question": "再次分析这个商品，关注成本缓存和证据字段",
+    "expected_tools": ["query_product_catalog", "query_order_stats", "query_refund_risk", "estimate_margin", "generate_listing_suggestions"],
+    "expected_evidence": ["conversion_rate", "refund_rate", "margin_rate"],
+    "expected_review": false
+  }
+]
+

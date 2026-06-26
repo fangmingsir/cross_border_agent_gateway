@@ -1,0 +1,30 @@
+[
+  {
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "title": "65W USB-C Travel Charger",
+    "category": "Electronics Accessories",
+    "rating": 4.1,
+    "listing_quality_score": 68,
+    "main_keywords": ["usb c charger", "travel charger", "65w charger"]
+  },
+  {
+    "sku": "SKU-YOGA-002",
+    "marketplace": "US",
+    "title": "Non Slip Yoga Mat",
+    "category": "Sports",
+    "rating": 4.5,
+    "listing_quality_score": 82,
+    "main_keywords": ["yoga mat", "non slip mat", "exercise mat"]
+  },
+  {
+    "sku": "SKU-LAMP-003",
+    "marketplace": "UK",
+    "title": "LED Desk Lamp with Clamp",
+    "category": "Home Office",
+    "rating": 3.9,
+    "listing_quality_score": 61,
+    "main_keywords": ["desk lamp", "clamp lamp", "led light"]
+  }
+]
+

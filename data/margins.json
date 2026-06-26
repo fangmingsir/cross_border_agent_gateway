@@ -1,0 +1,27 @@
+[
+  {
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "avg_sale_price": 29.99,
+    "landed_cost": 13.2,
+    "platform_fee": 4.5,
+    "ad_cost_per_unit": 3.9
+  },
+  {
+    "sku": "SKU-YOGA-002",
+    "marketplace": "US",
+    "avg_sale_price": 24.99,
+    "landed_cost": 9.5,
+    "platform_fee": 3.7,
+    "ad_cost_per_unit": 2.1
+  },
+  {
+    "sku": "SKU-LAMP-003",
+    "marketplace": "UK",
+    "avg_sale_price": 21.99,
+    "landed_cost": 12.4,
+    "platform_fee": 3.2,
+    "ad_cost_per_unit": 3.8
+  }
+]
+

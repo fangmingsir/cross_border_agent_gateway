@@ -1,0 +1,24 @@
+[
+  {
+    "sku": "SKU-USB-C-001",
+    "marketplace": "US",
+    "refund_rate": 0.095,
+    "top_reason": "Not compatible with older laptops",
+    "negative_review_keywords": ["compatibility", "heats up", "short cable"]
+  },
+  {
+    "sku": "SKU-YOGA-002",
+    "marketplace": "US",
+    "refund_rate": 0.035,
+    "top_reason": "Color expectation mismatch",
+    "negative_review_keywords": ["color", "smell"]
+  },
+  {
+    "sku": "SKU-LAMP-003",
+    "marketplace": "UK",
+    "refund_rate": 0.14,
+    "top_reason": "Clamp breaks after installation",
+    "negative_review_keywords": ["clamp", "fragile", "installation"]
+  }
+]
+
